@@ -100,8 +100,8 @@ const modules = {
                 <p>Welcome to the 1%. You’ve done the work, you’ve built the habits, and now it’s time to reap the rewards of an Elite FICO score.</p>
                 
                 <div class="step-card">
-                    <h4>1. The Refinance Victory</h4>
-                    <p>Now that your score is elite, your old high-interest loans are costing you money. Contact your lenders or shop for new ones to refinance your car or home. A 5% drop in interest can save you tens of thousands over the life of a loan.</p>
+                    <h4>1. The Refinance Strategy</h4>
+                    <p>Now that your score is elite, your old high-interest loans are costing you money. However, <b>do not contact your lenders directly</b> to negotiate or refinance while we are still managing your profile. Once your restoration is complete, we will guide you on the exact timing to refinance your car or home to save thousands in interest.</p>
                 </div>
 
                 <div class="step-card">
