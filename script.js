@@ -18,7 +18,7 @@ const modules = {
 
                 <div class="step-card">
                     <h4>3. The Bureau Letters</h4>
-                    <p>The bureaus will mail responses directly to you. **Do not open them.** Simply take a clear photo of the envelope and the contents, and upload them to your client portal immediately. This is how we track our wins.</p>
+                    <p>The bureaus will mail responses directly to you. You <b>should</b> open these letters immediately to review the results. Take a clear, flat photo of every page and upload them to your client portal right away. Most importantly: <b>Consult with your agent</b> the moment you receive them so we can log the progress.</p>
                 </div>
 
                 <div class="step-card">
