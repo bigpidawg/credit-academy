@@ -60,6 +60,37 @@ const modules = {
                 <button class="btn-primary" style="width: 100%; margin-top: 20px;" onclick="closeModule()">MODULE COMPLETE</button>
             </div>
         `
+    },
+    3: {
+        title: "Wealth Habits",
+        content: `
+            <div class="content-body-inner">
+                <h2>Phase 03: Wealth Habits</h2>
+                <p>Now that your profile is stabilizing, it's time to stop using credit like a safety net and start using it like a weapon for wealth.</p>
+                
+                <div class="step-card">
+                    <h4>1. The Anti-Debit Lifestyle</h4>
+                    <p>Debit cards offer zero credit building and weak fraud protection. Elite clients use credit cards for <b>every</b> daily purchase to earn rewards and build history—then pay them off immediately. Your debit card is only for the ATM.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>2. The 2-Card Minimum</h4>
+                    <p>A "thin" file is a fragile score. To reach the 800s, you need a mix of accounts. We recommend at least two primary credit cards. This lowers your overall utilization and shows the bureaus you can handle multiple lines of credit responsibly.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>3. The Auto-Pay Safety Net</h4>
+                    <p>Human error is the #1 score killer. Set every account to "Minimum Payment" via Auto-Pay. You should still pay in full manually, but the Auto-Pay ensures that if life gets busy, your score stays protected.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>4. Thinking in Percentages, Not Dollars</h4>
+                    <p>Elite credit users don't care about their balance; they care about their percentage. Never let a single card cross 30%, even if you have the cash to pay it off tomorrow. Keeping it low throughout the month is the secret to a stable, high score.</p>
+                </div>
+
+                <button class="btn-primary" style="width: 100%; margin-top: 20px;" onclick="closeModule()">MODULE COMPLETE</button>
+            </div>
+        `
     }
 };
 
