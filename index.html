@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Jump Your FICO | Elite Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="crt-bg">
+    <div class="scanlines"></div>
+    
+    <nav class="glass-nav">
+        <div class="logo">
+            <span class="neon-text">JUMP YOUR FICO</span>
+            <span class="tag">ELITE ACADEMY</span>
+        </div>
+        <div class="status-pill">
+            <span class="pulse"></span> CLIENT PORTAL
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Welcome to the <span class="highlight">Inner Circle</span></h1>
+            <p>Your journey to 800+ starts with the right habits. We handle the paperwork; you master the score.</p>
+        </header>
+
+        <section class="module-grid">
+            <!-- Phase 1: Active -->
+            <div class="module-card active" onclick="loadModule(1)">
+                <div class="module-info">
+                    <span class="module-num">PHASE 01</span>
+                    <h3>The Partnership</h3>
+                    <p>What we're doing & how to handle the process.</p>
+                </div>
+                <div class="progress-bar"><div class="fill" style="width: 0%"></div></div>
+                <button class="btn-primary">START MODULE</button>
+            </div>
+
+            <!-- Future Phases: Locked -->
+            <div class="module-card locked">
+                <div class="module-info">
+                    <span class="module-num">PHASE 02</span>
+                    <h3>Algorithm Architecture</h3>
+                    <p>Locked until Phase 01 complete.</p>
+                </div>
+                <div class="lock-icon">🔒</div>
+            </div>
+
+            <div class="module-card locked">
+                <div class="module-info">
+                    <span class="module-num">PHASE 03</span>
+                    <h3>Wealth Habits</h3>
+                    <p>Locked until Phase 02 complete.</p>
+                </div>
+                <div class="lock-icon">🔒</div>
+            </div>
+
+            <div class="module-card locked">
+                <div class="module-info">
+                    <span class="module-num">PHASE 04</span>
+                    <h3>Mastery & Leverage</h3>
+                    <p>Locked until Phase 03 complete.</p>
+                </div>
+                <div class="lock-icon">🔒</div>
+            </div>
+        </section>
+
+        <!-- Dynamic Content Area -->
+        <section id="module-content" class="content-window hidden">
+            <button class="close-btn" onclick="closeModule()">&times; CLOSE</button>
+            <div id="content-body">
+                <!-- Content injected via JS -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
