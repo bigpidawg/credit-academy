@@ -91,6 +91,37 @@ const modules = {
                 <button class="btn-primary" style="width: 100%; margin-top: 20px;" onclick="closeModule()">MODULE COMPLETE</button>
             </div>
         `
+    },
+    4: {
+        title: "Mastery & Leverage",
+        content: `
+            <div class="content-body-inner">
+                <h2>Phase 04: Mastery & Leverage</h2>
+                <p>Welcome to the 1%. You’ve done the work, you’ve built the habits, and now it’s time to reap the rewards of an Elite FICO score.</p>
+                
+                <div class="step-card">
+                    <h4>1. The Refinance Victory</h4>
+                    <p>Now that your score is elite, your old high-interest loans are costing you money. Contact your lenders or shop for new ones to refinance your car or home. A 5% drop in interest can save you tens of thousands over the life of a loan.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>2. The Identity Shield</h4>
+                    <p>High scores are targets. We recommend keeping your reports "Frozen" at all three bureaus. It’s free and takes 5 minutes. You only "thaw" them when you are actively applying for something. This is the ultimate protection against identity theft.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>3. Annual Strategy Sessions</h4>
+                    <p>Credit is not "set it and forget it." Check your real FICO scores once a quarter. If you see a dip, review your utilization first. Stay proactive to stay elite.</p>
+                </div>
+
+                <div class="step-card">
+                    <h4>4. Beyond Personal: Business Funding</h4>
+                    <p>Your personal profile is now the "Key" to business credit. If you have an LLC or an idea for a business, you can now leverage your 750+ score to secure 0% interest business funding—money that doesn't show up on your personal report. Ask us how to start this journey.</p>
+                </div>
+
+                <button class="btn-primary" style="width: 100%; margin-top: 20px;" onclick="closeModule()">ACADEMY COMPLETE</button>
+            </div>
+        `
     }
 };
 
